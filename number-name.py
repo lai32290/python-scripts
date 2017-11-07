@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# this script is to add number as file name prefix
 
 import sys
 import os
