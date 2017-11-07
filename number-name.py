@@ -22,4 +22,4 @@ files = sorted(files, key=lambda file: file.date)
 
 for index, file in enumerate(files):
     newName = "%02d- %s" % (index + 1, file.name)
-    shutil.move(file.name, newName)
+    os.rename(file.name, newName)
